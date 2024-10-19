@@ -1,0 +1,21 @@
+// Calculation of BMI.
+#include<stdio.h>
+int main()
+{
+float h,w,bmi;
+printf("Enter your height (in cms):\n");
+scanf("%f",&h);
+printf("Enter your weight (in kgs):\n");
+scanf("%f",&w);
+bmi=w/(h*h);
+printf("The bmi is: %.2f",bmi);
+
+}
+
+
+
+
+
+
+
+
