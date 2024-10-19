@@ -1,0 +1,13 @@
+//Cheking wheather the entred bud is a bus number
+#include<stdio.h>
+int main()
+{
+    int bus;
+    printf("Enter the  number to find wheather it is bus or not:\n");
+    scanf("%d",&bus);
+    if(bus%7==0||bus%10==7)
+    printf("It is a bus");
+    else
+    printf("Its not a bus");
+    
+}
